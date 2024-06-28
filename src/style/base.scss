@@ -1,0 +1,12 @@
+
+body {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
