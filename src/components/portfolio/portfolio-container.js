@@ -20,7 +20,6 @@ export default class PortfolioContainer extends Component {
           .get("https://jonalda.devcamp.space/portfolio/portfolio_items")
           .then(response=> {
           // handle success
-          console.log("my response data is:",response);
           this.setState({
             data: response.data.portfolio_items
           })
